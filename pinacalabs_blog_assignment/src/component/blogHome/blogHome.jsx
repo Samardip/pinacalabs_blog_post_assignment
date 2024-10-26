@@ -7,7 +7,7 @@ import { useBlogHome } from '../../useHooks/useBlogHome/useBlogHome';
 const BlogHome = () => {
   const {blogs, pages, handlePageChange, pageCardCount} = useBlogHome();
   return (
-    <div className='flex flex-col justify-start gap-5 min-h-screen bg-white dark:bg-gray-900 z-0'>
+    <div className='flex flex-col justify-start gap-5 min-h-screen bg-white z-0'>
       <div className='flex justify-between items-center'>
         <div className='text-xl font-bold'>My Blogs</div>
         <Link to={'/post/create'}>

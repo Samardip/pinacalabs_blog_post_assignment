@@ -15,7 +15,7 @@ const HomeContainer = () => {
     }>
       <div>
         <Navbar />
-        <div className="m-10 mt-20 bg-white dark:bg-black">
+        <div className="m-10 mt-20 bg-white">
           <Outlet />
         </div>
       </div>

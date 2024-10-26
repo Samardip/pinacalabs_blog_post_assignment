@@ -10,7 +10,7 @@ const SearchBar = () => {
             variant="outlined"
             placeholder="Search"
             fullWidth
-            className={`bg-gray-100 dark:bg-custom-black-5 text-white !w-[50%] !lg:w-[100%]`}
+            className={`bg-gray-100 text-white !w-[50%] !lg:w-[100%]`}
             rows={1}
             sx={{
                 color: 'grey',
